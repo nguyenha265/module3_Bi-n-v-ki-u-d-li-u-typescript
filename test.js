@@ -1,0 +1,21 @@
+var chuoi = "xin chao typescript";
+var so = 123;
+var dungSai = true;
+var chuoiArr = ["xin", "chao", "cac", "ban"];
+var soArr = [1, 2, 3, 4];
+var caiGiDo;
+(function (caiGiDo) {
+    caiGiDo[caiGiDo["toi"] = 0] = "toi";
+    caiGiDo[caiGiDo["la"] = 1] = "la";
+    caiGiDo[caiGiDo["ai"] = 2] = "ai";
+    caiGiDo[caiGiDo["day"] = 3] = "day";
+    caiGiDo[caiGiDo["dau"] = 4] = "dau";
+})(caiGiDo || (caiGiDo = {}));
+;
+alert(chuoi);
+alert(so);
+alert(dungSai);
+alert(chuoiArr);
+alert(soArr);
+alert(caiGiDo.toi);
+alert(caiGiDo[1]);
